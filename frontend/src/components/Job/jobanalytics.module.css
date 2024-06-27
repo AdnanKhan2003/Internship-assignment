@@ -1,0 +1,25 @@
+.job_analytics_list_container {
+  padding-top: 4rem;
+}
+.job_analytics_container {
+  padding: 0 2rem;
+  width: 100%;
+}
+.border_none {
+  border-top: none;
+}
+.analytics_btn {
+  padding: 0.55rem 2.3rem;
+  font-size: 1rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1100px) {
+  .job_analytics_container {
+    display: none;
+  }
+}

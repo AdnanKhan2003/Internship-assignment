@@ -1,0 +1,16 @@
+.job_info_container {
+  display: flex;
+  align-items: baseline;
+  justify-content: left;
+  flex-grow: 40;
+}
+
+.job_analytics_container {
+  flex-grow: 1;
+}
+
+@media (max-width: 376px) {
+  .job_info_container {
+    width: 100%;
+  }
+}

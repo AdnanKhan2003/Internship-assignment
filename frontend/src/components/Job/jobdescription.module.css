@@ -1,0 +1,26 @@
+.line {
+  border-bottom: 2px solid #eeeeee;
+}
+.section_spacing {
+  padding: 0 4rem;
+}
+.about_job {
+  font-size: 0.875rem;
+  color: #6e6d6d;
+}
+.about_job_points {
+  font-size: 1rem;
+  color: #3d3d3d;
+}
+.job_points_spacing {
+  padding: 0 1.3rem;
+}
+.list_unordered {
+  list-style-type: disc;
+}
+
+@media (max-width: 654px) {
+  .section_spacing {
+    padding: 1rem;
+  }
+}

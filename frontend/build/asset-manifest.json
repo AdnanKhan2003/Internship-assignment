@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9cf51f8b.css",
+    "main.js": "/static/js/main.d573f3c4.js",
+    "static/media/RationalDisplay-Medium.ttf": "/static/media/RationalDisplay-Medium.eb86cac9c9c4575500cb.ttf",
+    "static/media/RationalDisplay-Light.ttf": "/static/media/RationalDisplay-Light.29d19a71758e2b0376e2.ttf",
+    "static/media/RationalDisplay-ExtraLight.ttf": "/static/media/RationalDisplay-ExtraLight.75acea679b3290e3b7d0.ttf",
+    "static/media/RationalDisplay-SemiBold.ttf": "/static/media/RationalDisplay-SemiBold.25cf72fffea5cafeed2d.ttf",
+    "static/media/RationalDisplay-Thin.ttf": "/static/media/RationalDisplay-Thin.9dc1ff94a41e5e489855.ttf",
+    "static/media/RationalDisplay-Bold.ttf": "/static/media/RationalDisplay-Bold.86b2de146b7b6d274997.ttf",
+    "static/media/RationalDisplay-ExtraBold.ttf": "/static/media/RationalDisplay-ExtraBold.1d3090ce35f4d44b88ab.ttf",
+    "static/media/RationalDisplay-Book.ttf": "/static/media/RationalDisplay-Book.302c88f63e583d470535.ttf",
+    "index.html": "/index.html",
+    "main.9cf51f8b.css.map": "/static/css/main.9cf51f8b.css.map",
+    "main.d573f3c4.js.map": "/static/js/main.d573f3c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cf51f8b.css",
+    "static/js/main.d573f3c4.js"
+  ]
+}

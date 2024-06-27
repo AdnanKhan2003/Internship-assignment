@@ -1,0 +1,32 @@
+.analytics_list {
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #eeeeee;
+  padding: 0 2rem;
+}
+
+.number_gap {
+  margin-left: auto;
+}
+.analytics_label {
+  font-size: 1rem;
+  color: #4f4f4f;
+}
+.analytics_label__number {
+  color: #3d3d3d;
+  font-size: 1rem;
+  font-family: rationalSemiBold;
+}
+.label_wrapper {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.analytics_list_container {
+  border-radius: 0.2rem;
+}
+.analytics_list_container:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

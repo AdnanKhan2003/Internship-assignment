@@ -1,0 +1,57 @@
+/* THEME */
+.button_rounded_full {
+  border-radius: 20px;
+}
+.button_light {
+  background-color: var(--brand-light-clr);
+  color: var(--brand-clr);
+  border: 2px solid #eeeeee;
+}
+.button_dark {
+  background-color: var(--brand-clr);
+  color: var(--brand-text-clr);
+  border: 2px solid #eeeeee;
+}
+.button_main {
+  background-color: var(--dark-btn-clr);
+  color: var(--brand-clr);
+  font-family: var(--font-family-semibold);
+  border: none;
+}
+
+.button_text {
+  background: transparent;
+  border: none;
+  color: #ccc;
+}
+button a {
+  text-decoration: none;
+}
+.active_nav_link {
+  color: var(--brand-clr);
+}
+/* SIZE */
+.button_lg {
+  padding: 0.7rem 0.9rem;
+}
+.button_sm {
+  padding: 0.3rem 1.8rem;
+}
+
+/* ROUNDED */
+.button_rounded {
+  border-radius: 0.37rem;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.text_effect:hover {
+  color: black;
+}
+.box_effect:hover {
+  box-shadow: 0 0 4px 1px rgb(0, 0, 0, 0.1);
+}

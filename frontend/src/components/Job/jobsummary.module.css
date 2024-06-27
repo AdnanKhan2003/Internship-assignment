@@ -1,0 +1,49 @@
+.job_summary_container {
+  border-bottom: 2px solid #eeeeee;
+}
+.job_summary_answer {
+  font-size: 1rem;
+  color: #3d3d3d;
+  font-family: rationalSemiBold;
+}
+.label_wrapper {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+  border: 1px solid #eeeeee;
+  margin-bottom: 0.5rem;
+  border-radius: 0.4rem;
+}
+.w_90 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 0 4rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 890px) {
+  .w_90 {
+    flex-wrap: wrap;
+  }
+  .required_tags {
+    margin-right: 2rem;
+    margin-bottom: 1.2rem;
+  }
+  .required_tags:nth-child(1) {
+    flex-grow: 2;
+  }
+  .required_tags:nth-child(2) {
+    flex-grow: 2;
+  }
+  .required_tags:nth-child(3) {
+    flex-grow: 1;
+  }
+}
+@media (max-width: 654px) {
+  .w_90 {
+    padding: 1rem;
+  }
+}

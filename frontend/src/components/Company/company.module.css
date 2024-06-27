@@ -1,0 +1,49 @@
+.grouped_content {
+  display: flex;
+  align-items: center;
+}
+.company_wrapper {
+  padding: 0 4rem;
+}
+.flex {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  /* width: 60%; */
+}
+.company_name {
+  font-size: 1.25rem;
+  color: #4f4f4f;
+  margin-left: 0.7rem;
+}
+.company_title {
+  font-size: 0.875rem;
+  color: #6e6d6d;
+}
+.company_title_points {
+  font-size: 0.9rem;
+  color: #3d3d3d;
+}
+.company_title,
+.company_title_points {
+  margin: 0;
+  padding: 0;
+}
+.companay_info {
+  margin: 1rem 0;
+}
+
+@media (max-width: 705px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+  .flex_wrapper {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 654px) {
+  .company_wrapper {
+    padding: 1rem;
+  }
+}

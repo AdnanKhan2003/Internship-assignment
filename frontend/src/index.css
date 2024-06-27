@@ -1,0 +1,162 @@
+@font-face {
+  font-family: rationalThin;
+  src: url(../public/fonts\ 2/RationalDisplay-Thin.ttf);
+}
+@font-face {
+  font-family: rationalExtraLight;
+  src: url(../public/fonts\ 2/RationalDisplay-ExtraLight.ttf);
+}
+@font-face {
+  font-family: rationalLight;
+  src: url(../public/fonts\ 2/RationalDisplay-Light.ttf);
+}
+@font-face {
+  font-family: rationalBook;
+  src: url(../public/fonts\ 2/RationalDisplay-Book.ttf);
+}
+@font-face {
+  font-family: rationalMedium;
+  src: url(../public/fonts\ 2/RationalDisplay-Medium.ttf);
+}
+@font-face {
+  font-family: rationalSemiBold;
+  src: url(../public/fonts\ 2/RationalDisplay-SemiBold.ttf);
+}
+@font-face {
+  font-family: rationalBold;
+  src: url(../public/fonts\ 2/RationalDisplay-Bold.ttf);
+}
+@font-face {
+  font-family: rationalExtraBold;
+  src: url(../public/fonts\ 2/RationalDisplay-ExtraBold.ttf);
+}
+
+.rationalThin {
+  font-family: rationalThin;
+}
+.rationalExtraLight {
+  font-family: rationalExtraLight;
+}
+.rationalLight {
+  font-family: rationalLight;
+}
+.rationalBook {
+  font-family: rationalBook;
+}
+.rationalMedium {
+  font-family: rationalMedium;
+}
+.rationalSemiBold {
+  font-family: rationalSemiBold;
+}
+.rationalBold {
+  font-family: rationalBold;
+}
+.rationalExtraBold {
+  font-family: rationalExtraBold;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: rationalBook;
+  font-weight: 400;
+}
+
+:root {
+  --font-family-semibold: rationalSemibold;
+  --font-family-normal: rationalBook;
+  --font-family-bold: rationalbold;
+  --font-family-light: rationalLight;
+
+  --job-role: #3d3d3d;
+
+  --brand-clr: #dc4a2d;
+  --brand-light-clr: #fef4f2;
+  --brand-text-clr: #fae8e4;
+
+  --border-clr: rgba(180, 180, 180, 0.4);
+
+  --subtitle-clr: #6e6d6d;
+  --subtitle-font-size: 0.875rem;
+
+  --dark-clr: #515151;
+  --dark-light-clr: #c3c3c3;
+
+  --dark-btn-clr: #e7e7e7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+.subtitle {
+  color: var(--subtitle-clr);
+  font-size: var(--subtitle-font-size);
+}
+
+.container_full {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.h_full {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 4rem;
+}
+
+.button_items_linear {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.margin_right_label {
+  margin-right: 0.4rem;
+}
+.margin_right {
+  margin-right: 0.4rem;
+  align-self: baseline;
+}
+.margin_left {
+  margin-left: 0.4rem;
+  align-self: baseline;
+}
+
+.label_icon {
+  margin-top: 0.7rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: rationalSemibold;
+}
+
+.button-text {
+  background: transparent;
+  color: white;
+}
+.button-color {
+  background-color: orange;
+}
+.button-main {
+  background-color: #ccc;
+}
+
+::selection {
+  background-color: var(--brand-clr);
+  color: #fff;
+}
+::-moz-selection {
+  background-color: var(--brand-clr);
+  color: #fff;
+}
